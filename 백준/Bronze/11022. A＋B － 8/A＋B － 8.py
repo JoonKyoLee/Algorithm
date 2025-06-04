@@ -1,5 +1,6 @@
-T = int(input())
+N = int(input())
 
-for i in range(T):
+for i in range(N):
     A, B = map(int, input().split())
-    print("Case #{}: {} + {} = {}".format(i + 1, A, B, A + B))
+    C = A + B
+    print(f"Case #{i + 1}: {A} + {B} = {C}")
